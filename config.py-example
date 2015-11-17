@@ -1,7 +1,7 @@
 signature   = "" # AWS secret access key
 accesskey   = "" # AWS access key ID
 sandbox     = True # if true, put on workersandbox.mturk.com
-host        = "http://localhost" 
+host        = "localhost" 
 port        = 8080
 localhost   = "{0}:{1}".format(host, port) # your local host
 database    = "mysql://root@localhost/vatic" # server://user:pass@localhost/dbname
